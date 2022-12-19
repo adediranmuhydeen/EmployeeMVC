@@ -1,0 +1,31 @@
+﻿@model EmplohyeeAppMvc.Models.AddEmployeeViewModel
+@{
+}
+
+<form>
+    <div method="post" action="Add">
+        <label for="first-Name" class="form-label">First Name</label>
+        <input type="text" class="form-control" asp-for="FirstName">
+    </div>  
+    <div method="post" action="Add">
+        <label for="middle-Name" class="form-label">Middle Name</label>
+        <input type="text" class="form-control" asp-for="MiddleName">
+    </div>    
+    <div method="post" action="Add">
+        <label for="Last-Name" class="form-label">Last Name</label>
+        <input type="text" class="form-control" asp-for="LastName">
+    </div>
+    <div method="post" action="Add">
+        <label for="Title" class="form-label">Title</label>
+        <input type="text" class="form-control" asp-for="Title">
+    </div>
+    <div method="post" action="Add">
+        <label for="phone-number" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" asp-for="PhoneNumber">
+    </div>
+    <div method="post" action="Add">
+        <label for="Last-Name" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
